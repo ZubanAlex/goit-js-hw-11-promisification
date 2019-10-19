@@ -1,6 +1,6 @@
 'use strict';
 const delay = ms => {
-  const promise = new Promise((resolve, reject) => {
+  const promise = new Promise(resolve => {
     setTimeout(() => {
       resolve(ms);
     }, ms);
